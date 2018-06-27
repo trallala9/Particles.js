@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+}
+
+
+
+#particles-js {
+
+    background: black;
+    height: 400px;
+    background: cover;
+    opacity: 0.9;
+
+}
+
+#login {
+    background: gray;
+    opacity: 0.1;
+    padding: 2rem;
+    position: absolute;
+    top: 160px;
+    left: 1350px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    letter-spacing: 1.9px;
+
+    border-radius: 10px;
+    position: absolute;
+    overflow: visible;
+
+}
+
+#login:hover {
+    opacity: 0.6;
+}
+
+#login input[type="text"],
+#login input["type"="password"] {
+    padding: 15px;
+    margin: 10px;
+    font-size: 25px;
+}
+
+
+
+#submit {
+    margin-top: 20px;
+    width: 160px;
+    border: 1px solid lightblue;
+
+}
+
+#pictureOne {
+
+    height: 450px;
+    background-color: gray;
+    opacity: 0.9;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 3.9px;
+    padding-top: 180px;
+    padding-top: 230px;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+#pictureOne:hover {
+    color: black;
+
+}
+
+#press {
+    margin-top: 345px;
+    font-size: 15px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    opacity: 0.1;
+    color: black;
+    text-transform: uppercase;
+
+
+}
+
+#press:hover {
+    opacity: 0.5;
+}
+
+#pictureTwo {
+    background-image: url(images/forest-hiking-trees-15286.jpg);
+    position: absolute;
+    height: 800px;
+    opacity: 0.5;
+    width: 100%;
+    top: 410px;
+
+}

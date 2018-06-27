@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Particles challenge</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+</head>
+
+<body>
+    <div id="particles-js">
+        <div id="login">
+            <form>
+                <div>
+                    <label for="username">01010101 01110011 01100101 01110010 <br>01101110 01100001 01101101 01100101:</label>
+                    <br>
+                    <input type="text" placeholder="........">
+                </div>
+                <div>
+                    <label for="password">01010000 01100001 01110011 01110011 <br>01110111 01101111 01110010 01100100:</label>
+                    <br>
+                    <input type="text" placeholder="........">
+                </div>
+                <input id="submit" type="submit" value="Login">
+            </form>
+        </div>
+    </div>
+    <div id="pictureOne">
+        <h4>Welcome stranger! <br>It is a pleasure to have You abroad...<br>Are You ready to enjoy the place where all magic happens?<br><b>...</b></h4>
+        <div id="pictureTwo"><button id="press">I am ready!</button></div>
+
+
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'particles.json', function() {
+            console.log('particles.json and js loaded...');
+        });
+
+    </script>
+</body>
+
+</html>
